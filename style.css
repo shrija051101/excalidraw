@@ -1,0 +1,133 @@
+
+  @import url('https://blog.hubspot.com/website/web-safe-html-css-fontsp');
+
+.navbar>.drop-down-btn{
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 5px;
+    background-color: white;
+    flex-direction: column;
+}
+.navbar>.icons{
+    display: flex;
+    border: 1px rgb(181, 179, 179);
+    border-radius: 5px;
+    justify-content: space-evenly;
+    padding: 5px;
+    box-shadow: 1px 0px 10px rgb(193, 191, 191);
+}
+.navbar>.icons>.vertical-line{
+    margin: 4px;
+    border: 1px solid rgb(123, 122, 122);
+    
+}
+.navbar>.icons>.my-icon{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 1px;
+    color: #656464;
+}
+.navbar>.profile{
+    padding: 3px;
+    font-size: small;
+}
+.navbar>.profile>.user{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #6965DB;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.navbar>.profile>.library{
+    margin: 5px;
+    color: #656464;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #656464;
+}
+.excalidraw_image{
+    width: 600px;
+    position: absolute;
+    color: blue;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    align-items: center;
+    
+}
+.excalidraw_image>.logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.excalidraw_image>.name{
+    position: relative;
+    left:80px;
+    font-family: Bradley Hand; 
+    font-family: cursive;
+    color: rgb(17, 17, 97);
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+}
+.excalidraw_image>.text{
+   position: absolute;
+   top: 100px;
+   left: -80px;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: #9a9999;
+   font-family: Bradley Hand; 
+   font-family: cursive;
+   font-size: 20px;
+}
+.excalidraw_image>table{
+    color: #b6b4b4;
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 80px;
+    text-align: left;
+}
+.excalidraw_image>table>td{
+    padding: 2px;
+    margin: 20px;
+}
+tr:hover{
+    background-color: #dcdbdb;
+}
+.nav-bottom>.alignment{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;  
+    
+    color: #656464;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+.nav-bottom>.preview{
+    position: absolute;
+    bottom: 10px;
+    left: 130px;  
+    color: #656464;
+    align-items: center;
+    border-radius: 5px;
+}
+.nav-bottom>.queries{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    border-radius: 5px; 
+    border: 1px solid #9a9999;
+    padding: 10px;
+    color: #656464;
+}
+
